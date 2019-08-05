@@ -1,4 +1,8 @@
-<img src="https://i.ibb.co/yWbXx3B/logo-SIMAS.png" alt="logo-SIMAS" border="0">
+<p align="center">
+  <img src="https://i.ibb.co/yWbXx3B/logo-SIMAS.png" alt="logo-SIMAS" border="0">
+</p>
+<br>
+<br>
 
 # Description
 **SIMAS (Sistem Informasi Manajemen Surat)** adalah sistem manajemen surat menyurat mulai dari surat masuk, surat keluar, penomeran surat, laporan surat keluar dan masuk. SIMAS di kembangankan menggunakan [YII Framework](https://www.yiiframework.com/)
