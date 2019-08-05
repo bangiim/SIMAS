@@ -9,7 +9,7 @@
 
 
 # Installation
-1. git clone
+1. git clone https://github.com/kangbaim/SIMAS.git
 2. composer install
 
 You can then access the application through the following URL:
