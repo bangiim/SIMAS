@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+	IndexIgnore */*
+	RewriteEngine On
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteCond %{REQUEST_URI} !^/(web)
+	RewriteRule ^assets/(.*)$ /web/assets/$1 [L]
+	RewriteRule ^css/(.*)$ web/css/$1 [L]
+	RewriteRule ^js/(.*)$ web/js/$1 [L]
+	RewriteRule ^repositori/(.*)$ web/repositori/$1 [L]
+	RewriteRule (.*) /web/$1
+	 
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /web/index.php
+</IfModule>
