@@ -17,5 +17,6 @@ You can then access the application through the following URL:
 ~~~
 http://localhost/simas/web/
 ~~~
-
-<img src="https://i.screenshot.net/6xrexuj" alt="Page Login" border="0" width="100%">
+# Screenshot
+<!--<img src="https://i.screenshot.net/6xrexuj" alt="Page Login" border="0" width="100%">-->
+<img src="https://i.ibb.co/HF9cZxN/SIMAS-Sistem-Informasi-Manajemen-Surat.png" alt="SIMAS-Sistem-Informasi-Manajemen-Surat" border="0" />
